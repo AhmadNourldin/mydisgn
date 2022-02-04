@@ -1,0 +1,94 @@
+@import url('./variable.scss');
+@import url('./root_style.scss');
+@import url('./responsive.scss');
+.navbar{
+    margin: 0rem auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    max-width: 70rem;
+    padding: 0rem 2rem;
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        i{
+            width: 1.5rem !important;
+            height: 1.5rem !important;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+.section__A{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    background-image: url('./../assest/7d4f0734-43ed-4304-80cb-7ba55a2d7c64.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .sectionA{
+        color: white;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        max-width: 80rem;
+        grid-template-columns: auto auto;
+        padding: 4rem 0rem;
+        div{
+            margin: 2rem;
+        }
+        .left{
+            p{
+                word-spacing: 5px;
+                letter-spacing: 2px;
+                font-size: 1.4rem;
+                a{
+                    color: white;
+                    border-bottom: 1px solid white;
+                }
+                a:hover{
+                    opacity: 0.8;
+                    border-bottom-color: yellow;
+                }
+            }
+            h1{
+                font-size: 5rem;
+                margin: 1.4rem 0rem;
+            }
+        }
+        .right{
+            p{
+                word-spacing: 5px;
+                letter-spacing: 2px;
+                font-size: 1.4rem;
+                margin: 0rem 0rem 3rem 0rem;
+            }
+            button{
+                padding: 1.2rem 3rem;
+                border-radius: 3rem;
+                color: white;
+                font-size: 1rem;
+                letter-spacing: 1.5px;
+                font-size: 1.2rem;
+                background-color: #e84a90;
+            }
+            button:hover{
+                background-color: #e52f7f;
+            }
+        }
+        .icons{
+            display: flex;
+            gap: 1rem;
+            margin: 5rem 2rem;
+            i{
+                font-size: 1.4rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+//Section A
+@media (max-width: 900px) {
+    .sectionA{
+        grid-template-columns: auto !important;
+        .right{
+            grid-row: 3;
+        }
+        .icons{
+            grid-row: 2;
+        }
+    }
+}

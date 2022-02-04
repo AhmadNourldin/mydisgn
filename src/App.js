@@ -1,7 +1,11 @@
+import Navbar from './components/Navbar'
+import SectionA from './components/SectionA';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <Navbar />
+      <SectionA />
     </div>
   );
 }
